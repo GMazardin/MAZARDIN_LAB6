@@ -1,4 +1,4 @@
-# MAZARDIN_LAB6
+# MAZARDIN Grégoire LAB 6 of C# course
 Lab 6 of C# by Grégoire MAZARDIN around Code Design Patterns
 
 Main code is to be executed in the "Program.cs" file
