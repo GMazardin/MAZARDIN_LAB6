@@ -1,0 +1,26 @@
+﻿Exercise 1:
+
+1.
+    Clean code is a code that is both easily understandable for a newcomer and easy to maintain.
+    A clean code is the goal of every programmer, as it is the most professional and qualitative code possible for
+    any project.
+
+2.
+    Yes, I think it is possible to "over-refactor" some code, because the programmer that coded first surely has not
+    the same mindset as the one that refactors it. It becomes easy to create new problems that were not existing
+    in the first solution if we want to refactor in a different way than what was used at first.
+
+3.
+    Code smells are indicators that the code is not clean and has problems. We have to bother about them because they
+    can mean sometimes that there are more deep problems than what was seen at first glance.
+
+4.
+    In the former GuildedRose, there were a few problems regarding both the readability of the code (mostly because
+    there were no comments and there were too much "if"s, therefore the code was difficult to understand) and its 
+    execution, because the layout showed us that it was not very clean to read and understand.
+    
+5.
+    We could have used the "Moving Features between Objects" technique, as there was a problem regarding the "Item.cs"
+    file. In fact, it was terribly designed, as there was only one class for an item. With an implementation of 
+    subclasses, you can simplify much more all the process of the quality/sellin update by stating special conditions
+    for special objects.

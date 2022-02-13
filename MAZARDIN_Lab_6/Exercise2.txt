@@ -1,0 +1,29 @@
+﻿Exercise 2: 
+
+1.
+    Design patterns are solutions to your problems of code designing. There are so-called "blueprints" that you can
+    customize in order to solve a recurring problem in your design. Thus, their purpose is not to be copy-pasted into
+    your code, but more to understand your bad coding habits and try to use better patterns.
+    a.
+        You should use one when you are stuck with an error in your code that relies on its conception, as it may
+        permit you to approach the solution you want to develop from a different angle.
+    b.
+        You should not use them when your error does not rely on conception, but other errors. This will not help you
+        to solve your coding problems. Also, choosing a pattern might not be the best choice, as they are not based
+        on the context of your project.
+
+2.
+     (see the code in the PizzaBuilder.cs, Builder.cs and Program.cs files to check for the builder pattern used here)
+     Using this coding pattern enhances a lot the stability of our code and also its scalability, because we become
+     able to declare many different types of the same object, without ruining the code itself.
+     
+3.
+    As an example, we could do a project using Decorator pattern that is about a Christmas Tree. We must cover the 
+    Christmas tree with multiple objects, in a specific order (Bubble Lights, Garland, etc.).
+    However, this pattern would have some limitations here. First, as we declare each wrapper at a time, it would 
+    be complicated to declare a specific christmas tree without one of the wrappers. Also, the code might look
+    very ugly because of the implementation of many wrappers nested between themselves.
+    
+4.
+    I choose the Factory Method design pattern for this exercise. You can see my code in the Vehicle.cs and Assemble.cs
+    files.
